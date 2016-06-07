@@ -1,0 +1,11 @@
+  <div class="tabs-striped tabs-top tabs-background-stable tabs-color-dark">
+    <div class="tabs">
+      <a class="tab-item {{tab.active}}" ng-click="loadTemplate(tab.url); setActive($index)" href="#" ng-repeat="tab in tabs track by $index">
+        <i class="icon ion-{{tab.icon}}"></i>
+      </a>
+      <a class="tab-item" ng-click="closeApp();">
+        <i class="icon ion-close"></i>
+      </a>
+    </div>
+
+  </div>

@@ -1,0 +1,7 @@
+<div class="list list-inset" ng-controller="homeCtrl">
+
+    <div class="item" ng-repeat="group in groups track by $index" ng-click="openGroup(group.id);">
+      Группа {{ group.name }}
+    </div>
+
+</div>
